@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/src/functions/*.*": {
+      "maxDuration": 25,
+      "runtime": "@vercel/redwood@2.0.5"
+    },
+    "api/src/functions/exampleFunction/*.*": {
+      "maxDuration": 25,
+      "runtime": "@vercel/redwood@2.0.5"
+    }
+  }
+
+}
